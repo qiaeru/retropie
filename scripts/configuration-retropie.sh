@@ -20,7 +20,11 @@ EOF
 timedatectl set-timezone Europe/Paris
 
 # Pays Wi-Fi : France
-echo "country=FR" > /etc/wpa_supplicant/wpa_supplicant.conf
+cat > /etc/wpa_supplicant/wpa_supplicant.conf <<EOF
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+country=FR
+EOF
 
 # Réappliquer le layout clavier
 setupcon
