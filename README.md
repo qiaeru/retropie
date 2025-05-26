@@ -70,7 +70,7 @@ Téléchargez et installez RetroPie sur le Raspberry Pi 400 par l'intermédiaire
 2. Exécutez la commande suivante pour déplacer les BIOS dans le répertoire adéquat :
 
     ```bash
-    sudo mv /media/usb/BIOS/* /opt/retropie/BIOS/
+    sudo mv /media/usb/BIOS/* /home/pi/RetroPie/BIOS/
     ```
 
 3. Exécutez la commande suivante pour déplacer les ROMS dans le répertoire adéquat :
