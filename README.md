@@ -21,11 +21,7 @@ Téléchargez et installez RetroPie sur le Raspberry Pi 400 par l'intermédiaire
 
 3. Pressez la touche `F4` pour accéder à la console de RetroPie.
 
-4. Exécutez les commandes suivantes (attention, le clavier est à ce stade en QWERTY et non en AZERTY) pour lancer le premier script qui va configurer la langue, le clavier, le fuseau horaire et la région Wi-Fi pour la France :
-
-    ```bash
-    sudo chmod +x /boot/scripts/configuration-retropie.sh
-    ```
+4. Exécutez la commande suivante (attention, le clavier est à ce stade en QWERTY et non en AZERTY) pour lancer le premier script qui va configurer la langue, le clavier, le fuseau horaire et la région Wi-Fi pour la France :
 
     ```bash
     sudo /boot/scripts/configuration-retropie.sh
@@ -37,19 +33,25 @@ Téléchargez et installez RetroPie sur le Raspberry Pi 400 par l'intermédiaire
     sudo $HOME/RetroPie-Setup/retropie_setup.sh
     ```
 
-    Sélectionnez l'option `C Configuration / tools`, l'option `236 wifi - Configure WiFi` puis l'option `1 Connect to WiFi network`. Sléectionnez le réseau correspondant puis saisissez sont mot de passe pour vous connecter au réseau Wi-Fi.
+    Validez l'ensemble des messages qui apparaissent. Sélectionnez l'option `C Configuration / tools`, l'option `236 wifi - Configure WiFi` puis l'option `1 Connect to WiFi network`. Sélectionnez le réseau correspondant puis saisissez sont mot de passe pour vous connecter au réseau Wi-Fi.
+
+    Dans le cas où le réseau n'apparaît pas, retournez à la console et exécutez la commande suivante pour ouvrir la configuration du Raspberry Pi 400 :
+
+    ```bash
+    sudo raspi-config
+    ```
+
+    Sélectionnez l'option `5 Localisation Options`, l'option `L4 WLAN Country` puis l'option `FR France`.
+
+    Relancez le script de configuration de RetroPie et tentez de vous connecter à nouveau au réseau Wi-Fi.
 
 6. Revenez sur la page d'accueil du script de configuration de RetroPie.
 
-    Sélectionnez l'option `U Update` pour mettre à jour entièrement le système.
+    Sélectionnez l'option `U Update` pour mettre à jour entièrement le système en validant l'ensemble des messages qui apparaissent.
 
 7. Une fois les mises à jours terminées, quittez le script de configuration de RetroPie pour revenir à la console.
 
-    Exécutez les commandes suivantes pour lancer le second script qui va appliquer des réglages HDMI optimisés (1080p à 60 Hz), overclocker modéremment le Raspberry Pi 400 pour de meilleures performances, optimiser la latence, la vidéo, l'audio et l'interface de RetroArch :
-
-    ```bash
-    sudo chmod +x /boot/scripts/optimisation-retropie.sh
-    ```
+    Exécutez la commande suivante pour lancer le second script qui va appliquer des réglages HDMI optimisés (1080p à 60 Hz), overclocker modéremment le Raspberry Pi 400 pour de meilleures performances, optimiser la latence, la vidéo, l'audio et l'interface de RetroArch :
 
     ```bash
     sudo /boot/scripts/optimisation-retropie.sh
