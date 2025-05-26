@@ -24,7 +24,7 @@ Téléchargez et installez RetroPie sur le Raspberry Pi 400 par l'intermédiaire
 4. Exécutez les commandes suivantes (attention, le clavier est à ce stade en QWERTY et non en AZERTY) pour lancer le premier script qui va configurer la langue, le clavier, le fuseau horaire et la région Wi-Fi pour la France :
 
     ```bash
-    chmod +x /boot/scripts/configuration-retropie.sh
+    sudo chmod +x /boot/scripts/configuration-retropie.sh
     ```
 
     ```bash
@@ -37,7 +37,7 @@ Téléchargez et installez RetroPie sur le Raspberry Pi 400 par l'intermédiaire
     sudo $HOME/RetroPie-Setup/retropie_setup.sh
     ```
 
-    Sélectionnez l'option `C Configuration / tools`, l'option `Wifi - Configure WiFi` puis l'option `1 Connect to WiFi network`. Sléectionnez le réseau correspondant puis saisissez sont mot de passe pour vous connecter au réseau Wi-Fi.
+    Sélectionnez l'option `C Configuration / tools`, l'option `236 wifi - Configure WiFi` puis l'option `1 Connect to WiFi network`. Sléectionnez le réseau correspondant puis saisissez sont mot de passe pour vous connecter au réseau Wi-Fi.
 
 6. Revenez sur la page d'accueil du script de configuration de RetroPie.
 
@@ -48,7 +48,7 @@ Téléchargez et installez RetroPie sur le Raspberry Pi 400 par l'intermédiaire
     Exécutez les commandes suivantes pour lancer le second script qui va appliquer des réglages HDMI optimisés (1080p à 60 Hz), overclocker modéremment le Raspberry Pi 400 pour de meilleures performances, optimiser la latence, la vidéo, l'audio et l'interface de RetroArch :
 
     ```bash
-    chmod +x /boot/scripts/optimisation-retropie.sh
+    sudo chmod +x /boot/scripts/optimisation-retropie.sh
     ```
 
     ```bash
