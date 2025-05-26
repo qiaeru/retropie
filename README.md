@@ -51,10 +51,10 @@ Téléchargez et installez RetroPie sur le Raspberry Pi 400 par l'intermédiaire
 
 7. Une fois les mises à jours terminées, quittez le script de configuration de RetroPie pour revenir à la console.
 
-    Exécutez la commande suivante pour lancer le second script qui va appliquer des réglages HDMI optimisés (1080p à 60 Hz), overclocker modéremment le Raspberry Pi 400 pour de meilleures performances, optimiser la latence, la vidéo, l'audio et l'interface de RetroArch :
+    Exécutez la commande suivante pour lancer le second script qui va optimiser la latence, la vidéo, l'audio et l'interface de RetroArch :
 
     ```bash
-    sudo /boot/scripts/optimisation-retropie.sh
+    sudo /boot/scripts/optimisation-retroarch.sh
     ```
 
 8. Une fois le script terminé, exécutez la commande suivante pour redémarrer le Raspberry Pi 400 :
