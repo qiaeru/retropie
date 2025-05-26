@@ -1,0 +1,43 @@
+Advance Wars.gba
+Advance Wars 2 - Black Hole Rising.gba
+Astro Boy - Omega Factor.gba
+Boktai - The Sun Is in Your Hand.gba
+Boktai 2 - Solar Boy Django.gba
+Castlevania.gba
+Castlevania - Aria of Sorrow.gba
+Castlevania - Harmony of Dissonance.gba
+Final Fantasy I & II - Dawn of Souls.gba
+Final Fantasy IV Advance.gba
+Final Fantasy V Advance.gba
+Final Fantasy VI Advance.gba
+Final Fantasy Tactics Advance.gba
+Fire Emblem.gba
+Fire Emblem - The Sacred Stones.gba
+F-Zero - GP Legend.gba
+Golden Sun.gba
+Golden Sun - L'Age Perdu.gba
+Kirby - Nightmare in Dream Land.gba
+Mario & Luigi - Superstar Saga.gba
+Mario Golf - Advance Tour.gba
+Mario Kart - Super Circuit.gba
+Mario Power Tennis.gba
+Megaman Zero.gba
+Megaman Zero 2.gba
+Megaman Zero 3.gba
+Megaman Zero 4.gba
+Metroid - Zero Mission.gba
+Metroid Fusion.gba
+Mother 3.gba
+Pokemon - Emeraude.gba
+Pokemon - Rouge Feu.gba
+Pokemon - Rubis.gba
+Pokemon - Saphir.gba
+Pokemon - Vert Feuille.gba
+Sonic Advance.gba
+Sonic Advance 2.gba
+Sonic Advance 3.gba
+Sword of Mana.gba
+The Legend of Zelda - A Link to the Past & Four Swords.gba
+The Legend of Zelda - The Minish Cap.gba
+Wario Land 4.gba
+WarioWare, Inc. - Minigame Mania.gba

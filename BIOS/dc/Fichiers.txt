@@ -1,0 +1,2 @@
+dc_boot.bin
+dc_flash.bin
