@@ -1,5 +1,0 @@
-scph7001.bin
-scph5501.bin
-scph1001.bin
-scph101.bin
-psxonpsp660.bin
