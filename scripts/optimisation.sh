@@ -42,4 +42,4 @@ set_cfg video_shader '"/opt/retropie/emulators/retroarch/shaders/shaders_cg/zfas
 # Interface
 set_cfg menu_driver '"ozone"'
 
-echo "==> Optimisation terminée."
+echo "==> Optimisation de RetroArch terminée."
