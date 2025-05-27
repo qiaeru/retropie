@@ -66,16 +66,13 @@ Depuis un ordinateur, téléchargez et installez RetroPie sur le Raspberry Pi 40
 
 ### Arborescence des BIOS personnels
 
-```bash
+```text
 BIOS/
-  dc/
-    dc_boot.bin
-    dc_flash.bin
-scph7001.bin
-scph5501.bin
-scph1001.bin
-scph101.bin
-psxonpsp660.bin
+    scph7001.bin
+    scph5501.bin
+    scph1001.bin
+    scph101.bin
+    psxonpsp660.bin
 ```
 
 ## Configuration des ROMS
@@ -92,74 +89,79 @@ psxonpsp660.bin
 
 ### Arborescence des ROMS personnelles
 
-```bash
+```text
 roms/
-  dreamcast/
-    Shenmue/
-  gba/
-    Advance Wars.gba
-    Advance Wars 2 - Black Hole Rising.gba
-    Astro Boy - Omega Factor.gba
-    Boktai - The Sun Is in Your Hand.gba
-    Boktai 2 - Solar Boy Django.gba
-    Castlevania.gba
-    Castlevania - Aria of Sorrow.gba
-    Castlevania - Harmony of Dissonance.gba
-    Final Fantasy I & II - Dawn of Souls.gba
-    Final Fantasy IV Advance.gba
-    Final Fantasy V Advance.gba
-    Final Fantasy VI Advance.gba
-    Final Fantasy Tactics Advance.gba
-    Fire Emblem.gba
-    Fire Emblem - The Sacred Stones.gba
-    F-Zero - GP Legend.gba
-    Golden Sun.gba
-    Golden Sun - L'Age Perdu.gba
-    Kirby - Nightmare in Dream Land.gba
-    Mario & Luigi - Superstar Saga.gba
-    Mario Golf - Advance Tour.gba
-    Mario Kart - Super Circuit.gba
-    Mario Power Tennis.gba
-    Megaman Zero.gba
-    Megaman Zero 2.gba
-    Megaman Zero 3.gba
-    Megaman Zero 4.gba
-    Metroid - Zero Mission.gba
-    Metroid Fusion.gba
-    Mother 3.gba
-    Pokemon - Emeraude.gba
-    Pokemon - Rouge Feu.gba
-    Pokemon - Rubis.gba
-    Pokemon - Saphir.gba
-    Pokemon - Vert Feuille.gba
-    Sonic Advance.gba
-    Sonic Advance 2.gba
-    Sonic Advance 3.gba
-    Sword of Mana.gba
-    The Legend of Zelda - A Link to the Past & Four Swords.gba
-    The Legend of Zelda - The Minish Cap.gba
-    Wario Land 4.gba
-    WarioWare, Inc. - Minigame Mania.gba
-  psx/
-    Final Fantasy VII/
-  snes/
-    Chrono Trigger.sfc
-    Donkey Kong Country.sfc
-    Donkey Kong Country 2 - Diddy's Kong Quest.sfc
-    Donkey Kong Country 3 - Dixie Kong's Double Trouble!.sfc
-    EarthBound.sfc
-    F-Zero.sfc
-    Mega Man X.sfc
-    Mega Man X2.sfc
-    Mega Man X3.sfc
-    Secret of Mana.sfc
-    Star Fox.sfc
-    Street Fighter II Turbo.sfc
-    Super Castlevania IV.sfc
-    Super Mario Kart.sfc
-    Super Mario World.sfc
-    Super Mario World 2 - Yoshi's Island.sfc
-    Super Metroid.sfc
+    gba/
+        Advance Wars.gba
+        Advance Wars 2 - Black Hole Rising.gba
+        Astro Boy - Omega Factor.gba
+        Boktai - The Sun Is in Your Hand.gba
+        Boktai 2 - Solar Boy Django.gba
+        Castlevania.gba
+        Castlevania - Aria of Sorrow.gba
+        Castlevania - Harmony of Dissonance.gba
+        Final Fantasy I & II - Dawn of Souls.gba
+        Final Fantasy IV Advance.gba
+        Final Fantasy V Advance.gba
+        Final Fantasy VI Advance.gba
+        Final Fantasy Tactics Advance.gba
+        Fire Emblem.gba
+        Fire Emblem - The Sacred Stones.gba
+        F-Zero - GP Legend.gba
+        Golden Sun.gba
+        Golden Sun - L'Age Perdu.gba
+        Kirby - Nightmare in Dream Land.gba
+        Mario & Luigi - Superstar Saga.gba
+        Mario Golf - Advance Tour.gba
+        Mario Kart - Super Circuit.gba
+        Mario Power Tennis.gba
+        Megaman Zero.gba
+        Megaman Zero 2.gba
+        Megaman Zero 3.gba
+        Megaman Zero 4.gba
+        Metroid - Zero Mission.gba
+        Metroid Fusion.gba
+        Mother 3.gba
+        Pokemon - Emeraude.gba
+        Pokemon - Rouge Feu.gba
+        Pokemon - Rubis.gba
+        Pokemon - Saphir.gba
+        Pokemon - Vert Feuille.gba
+        Sonic Advance.gba
+        Sonic Advance 2.gba
+        Sonic Advance 3.gba
+        Sword of Mana.gba
+        The Legend of Zelda - A Link to the Past & Four Swords.gba
+        The Legend of Zelda - The Minish Cap.gba
+        Wario Land 4.gba
+        WarioWare, Inc. - Minigame Mania.gba
+    psx/
+        Final Fantasy VII/
+            Final Fantasy VII.m3u
+            Final Fantasy VII (Disque 1).bin
+            Final Fantasy VII (Disque 1).cue
+            Final Fantasy VII (Disque 2).bin
+            Final Fantasy VII (Disque 2).cue
+            Final Fantasy VII (Disque 3).bin
+            Final Fantasy VII (Disque 3).cue
+    snes/
+        Chrono Trigger.sfc
+        Donkey Kong Country.sfc
+        Donkey Kong Country 2 - Diddy's Kong Quest.sfc
+        Donkey Kong Country 3 - Dixie Kong's Double Trouble!.sfc
+        EarthBound.sfc
+        F-Zero.sfc
+        Mega Man X.sfc
+        Mega Man X2.sfc
+        Mega Man X3.sfc
+        Secret of Mana.sfc
+        Star Fox.sfc
+        Street Fighter II Turbo.sfc
+        Super Castlevania IV.sfc
+        Super Mario Kart.sfc
+        Super Mario World.sfc
+        Super Mario World 2 - Yoshi's Island.sfc
+        Super Metroid.sfc
 ```
 
 ## Résolution de problèmes rencontrés
