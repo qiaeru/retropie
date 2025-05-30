@@ -17,7 +17,7 @@ Depuis un ordinateur, téléchargez et installez RetroPie sur le Raspberry Pi 40
 4. Exécutez la commande suivante pour lancer le premier script qui va configurer certains paramètres régionaux :
 
     ```bash
-    sudo /boot/scripts/configuration.sh
+    sudo /boot/config.sh
     ```
 
     Attention, il est important de noter qu'à ce stade, **le clavier est en QWERTY et non en AZERTY** ! L'exécution du script permettra de passer automatiquement la disposition du clavier en AZERTY.
@@ -40,13 +40,9 @@ Depuis un ordinateur, téléchargez et installez RetroPie sur le Raspberry Pi 40
 
     Sélectionnez l'option `U Update` pour mettre à jour entièrement le système en validant l'ensemble des messages qui apparaissent.
 
-8. Une fois les mises à jours terminées, quittez le script de configuration de RetroPie pour revenir au terminal. Exécutez la commande suivante pour lancer le second script qui va optimiser la latence, la vidéo, l'audio et l'interface de RetroArch :
+8. Une fois les mises à jours terminées, activez l'émulateur `DraStic` dans les paquets expérimentaux du script de configuration de RetroPie pour activer la prise en charge des jeux sur Nintendo DS.
 
-    ```bash
-    sudo /boot/scripts/optimisation.sh
-    ```
-
-9. Une fois le script terminé, exécutez la commande suivante pour redémarrer une dernière fois le Raspberry Pi 400 :
+9. Quittez le script de configuration de RetroPie pour revenir au terminal. Exécutez la commande suivante pour redémarrer une dernière fois le Raspberry Pi 400 :
 
     ```bash
     sudo reboot
