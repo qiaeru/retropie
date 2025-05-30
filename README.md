@@ -135,15 +135,40 @@ roms/
         The Legend of Zelda - The Minish Cap.gba
         Wario Land 4.gba
         WarioWare, Inc. - Minigame Mania.gba
+    nds/
+        Pokemon - Argent SoulSilver.nds
+        Pokemon - Blanche.nds
+        Pokemon - Blanche 2.nds
+        Pokemon - Diamant.nds
+        Pokemon - Noire.nds
+        Pokemon - Noire 2.nds
+        Pokemon - Or HeartGold.nds
+        Pokemon - Perle.nds
+        Pokemon - Platine.nds
     psx/
+        Breath of Fire IV/
+        Civilization II/
+        Crash Bandicoot/
+        Crash Bandicoot 2 - Cortex Strikes Back/
+        Crash Bandicoot 3 - Warped/
         Final Fantasy VII/
-            Final Fantasy VII.m3u
-            Final Fantasy VII (Disque 1).bin
-            Final Fantasy VII (Disque 1).cue
-            Final Fantasy VII (Disque 2).bin
-            Final Fantasy VII (Disque 2).cue
-            Final Fantasy VII (Disque 3).bin
-            Final Fantasy VII (Disque 3).cue
+        Final Fantasy VIII/
+        Final Fantasy IX/
+        Gran Turismo/
+        Gran Turismo 2/
+        ISS Pro Evolution 2/
+        Metal Gear Solid/
+        Need for Speed III - Hot Pursuit/
+        Oddworld - L'Exode d'Abe/
+        Oddworld - L'Odyssée d'Abe/
+        Spyro - Year of the Dragon/
+        Spyro 2 - Gateway to Glimmer/
+        Spyro the Dragon/
+        Suikoden/
+        Suikoden II/
+        Tekken 3/
+        Tony Hawk's Pro Skater 3/
+        Worms Armageddon/
     snes/
         Chrono Trigger.sfc
         Donkey Kong Country.sfc
